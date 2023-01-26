@@ -69,7 +69,8 @@ plot face contours, face meshs, irises contours, pupils centres. These methods a
 #                      Installation of the package
 
 On Command promt or powershell or Anaconda powershell
-pip install git+https://github.com/LaithAlShimaysawee/GazeOrientation.git
+
+        pip install git+https://github.com/LaithAlShimaysawee/GazeOrientation.git
 
 
 

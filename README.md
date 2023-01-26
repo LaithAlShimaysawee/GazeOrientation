@@ -4,16 +4,16 @@
 The GazeTracking package has several methods to estimate gaze orientation, 
 plot face contours, face meshs, irises contours, pupils centres. These methods are:
 
-GazeEstimation.extract_face_landmarks():
-        """This method returns arrays of face landmarks, irises landmarks as follow:
-           landmarks, face_landmarks : represent all face landmarks where (face_landmarks = landmarks.landmark)
-           irises_landmarks_pointer : represents the indexes of the irises landmarks inside the face_landmarks array
-           left_eye_landmarks_pointer: represents the indexes of the lefet eye landmarks inside the face_landmarks array
-           right_eye_landmarks_pointer: represents the indexes of the right eye landmarks inside the face_landmarks array
-        """ 
+```
+GazeEstimation.extract_face_landmarks(): This method returns arrays of face landmarks, irises landmarks as follow:
+landmarks, face_landmarks : represent all face landmarks where (face_landmarks = landmarks.landmark)
+irises_landmarks_pointer : represents the indexes of the irises landmarks inside the face_landmarks array
+left_eye_landmarks_pointer: represents the indexes of the lefet eye landmarks inside the face_landmarks array
+right_eye_landmarks_pointer: represents the indexes of the right eye landmarks inside the face_landmarks array
 
-``` GazeEstimation.get_left_pupil_centre(): 
-  This method returns the (x, y) point of the left eye pupil centre
+```
+```
+  GazeEstimation.get_left_pupil_centre(): This method returns the (x, y) point of the left eye pupil centre
 ```      
 GazeEstimation.get_right_pupil_centre(): 
         """This method returns the (x, y) point of the left eye pupil centre

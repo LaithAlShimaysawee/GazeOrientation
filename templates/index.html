@@ -1,0 +1,21 @@
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+
+			
+            <h2 class="mt-5">Gaze Estimation by Laith </h2>
+			<form method="post" action="{{ url_for('tasks') }}">
+			<input type="submit" value="Stop/Start" name="stop" />			
+			<input type="submit" value="Estimate Gaze Direction" name="gaze_direction" />
+			<input type="submit" value="Show Face Contours" name="face_contour" />
+			<input type="submit" value="Show Face mesh" name="face_mesh" />
+			<input type="submit" value="Capture" name="click"/>
+			<input type="submit" value="Start/Stop Recording" name="rec" />
+			</form>
+            <img src="{{ url_for('video_feed') }}" height="80%">
+        </div>
+    </div>
+</div>
+</body>

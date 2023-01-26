@@ -15,7 +15,7 @@ right_eye_landmarks_pointer: represents the indexes of the right eye landmarks i
 ```
   GazeEstimation.get_left_pupil_centre(): This method returns the (x, y) point of the left eye pupil centre
 ```      
-GazeEstimation.get_right_pupil_centre(): 
+## GazeEstimation.get_right_pupil_centre(): 
         """This method returns the (x, y) point of the left eye pupil centre
         """
 GazeEstimation.plot_face_mesh():    

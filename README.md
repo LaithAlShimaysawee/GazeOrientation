@@ -65,31 +65,31 @@ GazeEstimation.pol2cart(radius, angle):
         """ This method convert polar cordinates (radius, angle) to cartesian (x, y)
         """
 
-#--------------------------------------------------------------------------
-                      Installation of the package
-#--------------------------------------------------------------------------
+
+#                      Installation of the package
+
 on Command promt or powershell or Anaconda powershell
 pip install git+https://github.com/LaithAlShimaysawee/GazeOrientation.git
 
 
 
-#--------------------------------------------------------------------------
-                      Demo1 example (main.py)
-#--------------------------------------------------------------------------
+
+#                      Demo1 example (main.py)
+
 This demo example shows how to use the package to perform gaze tracking and orientation estimation over a webcam stream
 
 
-#--------------------------------------------------------------------------
-                      Demo2 example (main_Flask_APP.py)
-#--------------------------------------------------------------------------
+
+#                      Demo2 example (main_Flask_APP.py)
+
 This demo example shows how to use the package to build an APP to perform gaze tracking and orientation estimation over a webcam stream. This demo requires Flask library 
 
 After running the APP using Command promt or powershell or Anaconda powershell, copy-paste http://127.0.0.1:5000/ into your favorite internet browser and it should be working.
 
 
-#--------------------------------------------------------------------------------------
-       credits to webistes(githubs, blogs, etc) that helped to complete this project
-#--------------------------------------------------------------------------------------
+
+#       credits to webistes(githubs, blogs, etc) that helped to complete this project
+
 
 https://google.github.io/mediapipe/solutions/face_mesh.html
 
@@ -104,9 +104,9 @@ https://github.com/hemanth-nag/Camera_Flask_App
 https://towardsdatascience.com/use-git-submodules-to-install-a-private-custom-python-package-in-a-docker-image-dd6b89b1ee7a
 
 
-#--------------------------------------------------------------------------------------
-                      My github profile
-#--------------------------------------------------------------------------------------
+
+#                      My github profile
+
 
 https://github.com/LaithAlShimaysawee
 
